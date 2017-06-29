@@ -10,6 +10,14 @@ namespace Inheritance_Comp123
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("\n");
+            Person person = new Person("Dennis", 25);
+            person.Talks();
+            Console.WriteLine("\n");
+            Student student = new Student("Dennis", 20, "3000914940");
+            student.Studies();
+            student.Talks();
+            Console.WriteLine("\n");
         }
     }
 }
