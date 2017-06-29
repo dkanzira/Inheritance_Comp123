@@ -12,7 +12,6 @@ namespace Inheritance_Comp123
         //PRIVATE INSTANCE VARIABLES(FIELDS)
         private string _name;
         private int _age;
-
         //PUBLIC PROPERTIES ----------------------------------------
         public string Name
         {
@@ -36,8 +35,7 @@ namespace Inheritance_Comp123
                 this._age = value;
             }
         }
-        //CONSTRUCTORS -------------------------------------------
-
+        //CONSTRUCTORS ---------------------------------------------
         /// <summary>
         /// 
         /// </summary>
@@ -48,7 +46,7 @@ namespace Inheritance_Comp123
             this.Name = name;
             this._age = age;
         }
-        // PUBLIC METHODS ------------------------------------------------
+        // PUBLIC METHODS ------------------------------------------
         /// <summary>
         /// 
         /// </summary>

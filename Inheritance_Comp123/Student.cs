@@ -10,8 +10,7 @@ namespace Inheritance_Comp123
     {
         //PRIVATE INSTANCE VARIBALES (FIELDS)
         private string _studentID;
-
-        //PUBLIC INSTANCE VARIABLE ----------------------------------
+        //PUBLIC INSTANCE VARIABLE --------------------
         public string _StudentID
         {
             get
@@ -23,7 +22,6 @@ namespace Inheritance_Comp123
                 this._studentID = value;
             }
         }
-
         //CONSTRUCTORS --------------------------------
         /// <summary>
         /// This is the constructor for the Student Class.
@@ -37,8 +35,7 @@ namespace Inheritance_Comp123
         {
             this._StudentID = studentID;
         }
-
-        //PUBLIC METHODS ---------------------------------
+        //PUBLIC METHODS -------------------------------
         /// <summary>
         /// This is the public method for the Studet class
         /// </summary>
