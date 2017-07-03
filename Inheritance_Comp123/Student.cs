@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance_Comp123
 {
-    class Student : Person
+    public class Student : Person
     {
         //PRIVATE INSTANCE VARIBALES (FIELDS)
         private string _studentID;
@@ -35,7 +35,7 @@ namespace Inheritance_Comp123
         {
             this._StudentID = studentID;
         }
-        //PUBLIC METHODS -------------------------------
+        //PUBLIC METHODS ------------------------------
         /// <summary>
         /// This is the public method for the Studet class
         /// </summary>

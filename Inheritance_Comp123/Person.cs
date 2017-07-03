@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Inheritance_Comp123
 {
-   
-    class Person
+    /// <summary>
+    /// This is the Person Class
+    /// </summary>
+    public class Person
     {
         //PRIVATE INSTANCE VARIABLES(FIELDS)
         private string _name;
@@ -37,7 +39,8 @@ namespace Inheritance_Comp123
         }
         //CONSTRUCTORS ---------------------------------------------
         /// <summary>
-        /// 
+        /// This is the constructor for the Person class.
+        /// It takes two arguements - name(string) and age (int)
         /// </summary>
         /// <param name="name"></param>
         /// <param name="age"></param>
